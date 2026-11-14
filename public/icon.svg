@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="14" fill="#0B0D14"/>
+  <defs>
+    <linearGradient id="am-main" x1="32" y1="18" x2="32" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="am-star" x1="22" y1="4" x2="42" y2="23" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="50%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+  <polygon points="11,31 20,25 25,52 15,55" fill="#7E22CE" stroke="#2E1065" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="53,33 44,27 39,52 49,55" fill="#6B21A8" stroke="#2E1065" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="32,17 43,27 40,56 24,56 21,27" fill="url(#am-main)" stroke="#1E1B4B" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="32,17 21,27 32,33" fill="#E9D5FF" fill-opacity="0.45"/>
+  <path d="M32 3 C33.3 9.2 35.8 11.7 42 13 C35.8 14.3 33.3 16.8 32 23 C30.7 16.8 28.2 14.3 22 13 C28.2 11.7 30.7 9.2 32 3 Z" fill="url(#am-star)" stroke="#78350F" stroke-width="0.9" stroke-linejoin="round"/>
+</svg>
